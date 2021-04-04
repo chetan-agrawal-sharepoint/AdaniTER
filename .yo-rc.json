@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "adani-ter",
+    "libraryId": "2a8296ec-2836-4095-8c76-2305922c3e8d",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

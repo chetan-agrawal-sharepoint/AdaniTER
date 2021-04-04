@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "create-te-rwp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createTeRwp/CreateTeRwpWebPart.js",
+          "manifest": "./src/webparts/createTeRwp/CreateTeRwpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CreateTeRwpWebPartStrings": "lib/webparts/createTeRwp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

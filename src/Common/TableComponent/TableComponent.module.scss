@@ -1,0 +1,55 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.tableStyles {
+  background-color: #f0f4f7;
+}
+
+.deleteIconClass {
+  fill: #fd5151 !important;
+}
+
+.editIconClass {
+  fill: #146db7 !important;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.MuiTableSortLabel-root:hover {
+  color: #fff !important;
+}
+
+.MuiTableSortLabel-root:hover .MuiTableSortLabel-icon {
+  opacity: 1 !important;
+}
+
+.MuiTableSortLabel-root.MuiTableSortLabel-active {
+  color: #fff !important;
+}
+
+[class*="MuiTableSortLabel-root"]:hover {
+  color: #fff !important;
+}
+
+[class*="MuiTableSortLabel-active"] {
+  color: #fff !important;
+}
+
+[class*="MuiTableSortLabel-active"] [class*="MuiTableSortLabel-icon"] {
+  color: #fff !important;
+}
+
+[class*="MuiTableSortLabel-root"]:hover [class*="MuiTableSortLabel-icon"] {
+  opacity: 1 !important;
+}
+
+// [class*="MTableToolbar-actions"] {
+//   display: none;
+// }
